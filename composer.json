@@ -1,0 +1,33 @@
+{
+    "name": "user-center/oauth-sdk-php",
+    "description": "User center OAuth PHP SDK",
+    "keywords": [
+        "user center",
+        "oauth",
+        "sdk",
+        "php"
+    ],
+    "license": "MIT",
+    "config": {
+        "preferred-install": "dist"
+    },
+    "authors": [
+        {
+            "name": "kangkai",
+            "email": "kangkai@haodai.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/http": "~5.0",
+        "illuminate/session": "~5.0",
+        "illuminate/support": "~5.0",
+        "guzzlehttp/guzzle": "~5.3|~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Haodai\\UCenter\\OAuth\\": "src/"
+        }
+    }
+}
